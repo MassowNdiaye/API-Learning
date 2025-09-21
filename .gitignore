@@ -1,3 +1,17 @@
+# -------------------------------------------------------
+# Ignore folders and files that should not be in Git:
+# 
+# __pycache__   -> Python automatically generates these
+#                   compiled files (.pyc) when scripts run.
+#                   They are not needed in the repo and
+#                   can cause unnecessary changes in commits.
+#
+# venv           -> Ignore this virtual environment folder too if Git didn't do it automatically.
+#                   It contains installed packages for your
+#                   local setup and should not be tracked.
+#                   Other developers can install packages
+#                   using requirements.txt instead.
+# -------------------------------------------------------
 
 # Python cache
 __pycache__
