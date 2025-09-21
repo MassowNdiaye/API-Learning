@@ -11,6 +11,7 @@
 #                   local setup and should not be tracked.
 #                   Other developers can install packages
 #                   using requirements.txt instead.
+#                   1. To activate the venv: source venv/bin/activate
 # -------------------------------------------------------
 
 # Python cache
