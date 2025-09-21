@@ -1,3 +1,10 @@
+# -------------------------------------------------------
+# This file lists all Python packages needed for this project.
+# It’s important because it allows anyone (or future me)
+# to recreate the exact environment without sharing the full venv.
+# Never commit your virtual environment folder—just use this file!
+# -----------------------------------------------------
+
 annotated-types==0.7.0
 anyio==4.10.0
 certifi==2025.8.3
