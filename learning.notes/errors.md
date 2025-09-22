@@ -1,4 +1,6 @@
-# ⚠️ Warning: Don’t Rename Folders While VS Code Is Open - Sep 20 2025 : 10:35PM
+# Mistakes/Errors and Solutions 
+
+**⚠️ Warning: Don’t Rename Folders While VS Code Is Open - Sep 20 2025 : 10:35PM**
 
 Renaming folders while VS Code is open can cause:
 
