@@ -28,36 +28,38 @@
 ---
 
  ⚠️ **venv = Virtual Environment in Python** - Sep 22 2025 - 1:32PM 
-  It's like a BOX where you install packages only for one project, without affecting others projects or your global Python installation. 
+ 
+ It's like a BOX where you install packages only for one project, without affecting others projects or your global Python installation. 
 
- - **Why use it?**
+
+ **Why use it?**
   1. Keeps dependecies separate per project. 
   2. Prevent conflicts between package versions.
   3. Makes project reproducible (using requirements.txt)
 
 
-- **Basic Workflow**
+ **Basic Workflow**
  1. Create a venv
  python -m venv venv  ->  The second venv is just the folder name, can be changed. 
 
  2. Activate it
  source venv/bin/activate -> You'll see (venv) at the start of the terminal -> means it's active ✅
  
- 3. Example of package installation **(FastAPI)**
+ 3. Example of package installation **(FastAPI)**:
 
- **pip install fastapi uvicorn**
+ ➡️ **pip install fastapi uvicorn**
 
  - fastapi -> package name.
  - uvicorn -> Runs FastApi app so you can test APIs in the browser using tools like Postman.
 
-- **Basic Command**
+**Basic Command**
 If FastAPI app is inside a file main.py and the app is called "app"" 
 
- **uvicorn main:app --reload**
+ - **uvicorn main:app --reload**
  
- main -> filename (main.py)
- app -> the FastAPI app
- --reload -> auto-restarts the server when you change code
+ - main -> filename (main.py)
+ - app -> the FastAPI app
+ - --reload -> auto-restarts the server when you change code
 
  After running the command,this open gives a HTTP.
 
