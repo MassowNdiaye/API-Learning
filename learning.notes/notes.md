@@ -1,21 +1,21 @@
 # Learning Notes: 
 
-# ⚠️ **Viewing my API over HTTP:** 
-Activate the virtual environment (venv/bin/activate) and run the app:
-python -m uvicorn main:app --reload
+# ⚠️ **Viewing my APIs over HTTP:** 
+ Activate the virtual environment (venv/bin/activate) and run the app:
+ - python -m uvicorn main:app --reload
 
 ---
 
 # **⚠️ .DS_Store stands for Desktop Service Store.** - Sep 22 2025 - 1:14PM
-It's a hidden system file automatically created by macOS in every folder opened with Finder. 
+ It's a hidden system file automatically created by macOS in every folder opened with Finder. 
 
-It stores folder view preferences, like: 
-- icon positions 
-- window size
-- background color/image
+ It stores folder view preferences, like: 
+  - icon positions 
+  - window size
+ - background color/image
 
-✅ **Best practice**
-It's not needed for the code or GitHub, Add it to .gitignore so it doesn't get pushed to GitHub. 
+ ✅ **Best practice**
+ It's not needed for the code or GitHub, Add it to .gitignore so it doesn't get pushed to GitHub. 
 
 ---
 
@@ -27,7 +27,7 @@ It's not needed for the code or GitHub, Add it to .gitignore so it doesn't get p
 
 ---
 
-# ⚠️ ** venv = Virtual Environment in Python** - Sep 22 2025 - 1:32PM 
+# ⚠️ **venv = Virtual Environment in Python** - Sep 22 2025 - 1:32PM 
  It's like a BOX where you install packages only for one project, without affecting others projects or your global Python installation. 
 
 - **Why use it?**
